@@ -53,4 +53,6 @@ router.post("/transfer-funds", async (req, res) => {
   }
 });
 
+router.get("/")
+
 module.exports = router;
